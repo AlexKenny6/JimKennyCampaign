@@ -25,9 +25,9 @@ defined("DB_NAME") ? null : define("DB_NAME", "jimkenny_db");
 //Online Settings below
 
 //defined("DB_HOST") ? null : define("DB_HOST", "localhost");
-//defined("DB_USER") ? null : define("DB_USER", "pacwdlkv_admin");
-//defined("DB_PASS") ? null : define("DB_PASS", "Pbs6bots1b079Zpx");
-//defined("DB_NAME") ? null : define("DB_NAME", "pacwdlkv_jimkenny_db");
+//defined("DB_USER") ? null : define("DB_USER", "");
+//defined("DB_PASS") ? null : define("DB_PASS", "");
+//defined("DB_NAME") ? null : define("DB_NAME", "");
 
 
 // Create connection
