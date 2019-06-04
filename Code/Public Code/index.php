@@ -44,10 +44,7 @@
 				<p>Some info</p>
 				<h3 class="my-3">Statement</h3>
 				<ul>
-					<li>Lorem Ipsum</li>
-					<li>Dolor Sit Amet</li>
-					<li>Consectetur</li>
-					<li>Adipiscing Elit</li>
+					<li>Put Info Here</li>
 				</ul>
 			</div>
 		</div>
