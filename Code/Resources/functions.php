@@ -22,6 +22,10 @@ function send_mail($email, $message){
         $mail->Password = 'password';                           // SMTP password
         $mail->SMTPSecure = 'ssl';                              // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 465;                                      
+        // This code helps send the new user an email
+        // Only change it when changing new sending emails or username
+        // When changing the sending email, you must configure the gmail settings to allow for this email to be sent
+
 
         //Recipients
         $mail->setFrom('no-reply@info.com', 'Jim Kenny For Fire Commissioner');
