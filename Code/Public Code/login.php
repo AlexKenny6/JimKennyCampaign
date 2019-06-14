@@ -1,7 +1,8 @@
 <?php require_once("resources/config.php");  ?>
 
 <?php 
-    
+
+
     //Check if we are already logged in to prevent re-directions
     if(isset($_SESSION['id'])){
         header("Location: login/profile.php");
