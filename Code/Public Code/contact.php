@@ -6,10 +6,10 @@
 	<div class="w3-top">
 		<div class="w3-bar w3-red w3-card w3-left-align w3-large">
 			<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-			<a href="index.php" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+			<a href="index.php" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
 			<a href="background.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Background</a>
 			<a href="policies.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Policies</a>
-			<a href="contact.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+			<a href="contact.php" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">Contact</a>
 		</div>
 
 		<!-- Navbar on small screens -->
@@ -34,22 +34,23 @@
 	</script>
 
 
-<br><br><br>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-				<img class="img-fluid" src="images/JimKennyPic.JPG" alt="">
-			</div>
-			<div class="col-md-4">
-				<h1 class="my-3">Vote Jim Kenny for Fire Commissioner</h1>
-				<p>Some info</p>
-				<h3 class="my-3">Statement</h3>
-				<ul>
-					<li>Put Info Here</li>
-				</ul>
+
+	<div class="content-bottom">
+		<div class="container">
+			<div class="row content_bottom-text">
+			  <div class="col-md-7">
+				<h3 style="color:red;">Contact</h3>
+				<p id="p" style="color:red;">
+					If you would like to contact Jim about anything, please feel free to!
+				</p>
+					<ul id="ul" style="color:red;">
+						<li>Phone:</li>
+						<li>Email:</li>
+						<li>Address:</li>
+					</ul>
+			  </div>
 			</div>
 		</div>
 	</div>
-<br>
 
 <?php include(TEMPLATE_FRONT . DS . "footer.php");  ?>
